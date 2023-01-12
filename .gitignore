@@ -4,6 +4,7 @@
 #persistent and temp
 volumes
 *.log
+sites-enabled
 
 #Secret
 *.crt
