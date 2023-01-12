@@ -1,2 +1,6 @@
+# IDEA
+.idea
+
+#SECRETS
 *.crt
 *.key
