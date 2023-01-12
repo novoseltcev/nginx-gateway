@@ -1,2 +1,10 @@
+#Dev
+.idea
+
+#persistent and temp
+volumes
+*.log
+
+#Secret
 *.crt
 *.key

@@ -1,0 +1,18 @@
+#base
+.git
+.github
+.gitignore
+.idea
+README.md
+
+#Dev
+sites-available
+
+#persistent and temp
+volumes
+*.log
+
+#Docker's
+Dockerfile
+.dockerignore
+docker-compose.yml
