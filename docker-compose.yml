@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+  server:
+    build: .
+    volumes: 
+      - ./volumes/static:/var/www/
+      - ./volumes/log:/var/log/nginx
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    network_mode: host
