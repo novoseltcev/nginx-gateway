@@ -16,4 +16,4 @@ rm -rf sites-enabled && mkdir sites-enabled && cp sites-available/http.conf site
 If you need **SSL**, then paste certificate as `cert.crt` and key as `cert.key` into root.
 
 ## Step 3
-Define the upstream for the **backend** and the **frontend** in the corresponding configs in the folder ``./upstreams/
+Define the upstream for the **backend** and the **frontend** in the corresponding configs in the folder `./upstreams/`
